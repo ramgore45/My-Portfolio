@@ -13,16 +13,21 @@ const Hero = () => {
           <div className="   ">
               <p className="font-sans text-2xl">Hello! I am</p>
               <p className=" text-[3.1rem] leading-tight font-bold ">RAM GORE,</p>
-              <p>a 2023, graduated Bachelor's of Technology from university of Dr Babasaheb Ambedkar Technological University, Lonere and institute is Marathwada Institute of Technology, Aurangabad.</p>
+              <p>
+              a 2023 graduate with a Bachelor's of Technology from Dr. Babasaheb Ambedkar Technological University, Lonere, and Marathwada Institute of Technology, Aurangabad.              </p>
           </div>
 
-          <p className=" mt-6 leading-loose font-sans text-lg">I daily use: 
+          <p>
+            I am seeking a challenging position where I can leverage and expand my skills and knowledge. I am adaptable and open to working in diverse environments.
+          </p>
+
+          <p className=" mt-6 leading-loose font-sans text-lg">I have hands-on experience with 
             <span className=" bg-slate-500/50 font-bold p-1 rounded-sm ">.js</span>, 
             <span className=" bg-slate-500/50 font-bold p-1 rounded-sm ">.jsx</span>, 
             <span className=" bg-slate-500/50 font-bold p-1 rounded-sm ">.css</span>, 
             <span className=" bg-slate-500/50 font-bold p-1 rounded-sm ">.html</span>,
             <span className=" bg-slate-500/50 font-bold p-1 rounded-sm ">.json</span>, 
-            I have numerous MERN stack / Full stack Development project under my hood, detail of which you can find here - <Link className="underline" to={"https://github.com/ramgore45"}>GitHub</Link>
+            and have completed numerous web development projects. You can view my work and projects on my{" "}<Link className="underline" to={"https://github.com/ramgore45"}>GitHub</Link>{" "}profile.
           </p>
 
           {/* <TypeAnimation

@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import ProjectSection from "./components/ProjectSection";
 import Contact from "./components/Contact";
 import { useState } from "react";
+import { Skills } from "./components/Skills";
 
 function App() {
   const [x,setX] = useState();
@@ -12,6 +13,7 @@ function App() {
       {/* <NavBar /> */}
       <Hero />
       <About />
+      <Skills/>
       <ProjectSection />
       <Contact />
     </div>
